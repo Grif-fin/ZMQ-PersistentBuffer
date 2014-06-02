@@ -15,3 +15,9 @@ Dependencies:
   - zmqpp
   - boost_atomic
   - pthread
+  
+Passed Tests:
+  - Stream_Generator[1] has been used to test the memory caching, passthrough of items/sec and latency.
+  
+
+  [1] (https://github.com/datasift/ds-recruitment/tree/develop/stream_generator)
